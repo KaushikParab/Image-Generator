@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Generator</title>
+        <link rel="icon" type="Image/x-icon" href="k-logo.jpg">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="heading">
+                    <h1>Image Generator AI</h1>
+                </div>
+                <input type="text" id="inputText"
+                    placeholder="Enter your text here">
+                <button id="generateBtn">Generate Image</button>
+
+                <div id="error" class="hidden"><h4>Something went wrong, please try
+                    again!</h4></div>
+            </div>
+
+            <div id="output">
+                <div id="result">
+                    <img id="imageResult" src alt="Generated Image">
+                </div>
+                <div class="Download">
+                    <button class="Downloadbtn">
+                        Download Image
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

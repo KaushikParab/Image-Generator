@@ -1,0 +1,137 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #878d96;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 800px) {
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .header{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 100px;
+    }
+    .output{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #result{
+        width: 100%;
+    }
+
+}
+
+.header{
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: #121619;
+}
+
+
+.header:hover, .header:focus{
+    box-shadow: 3px 4px 25px 5px #3ddbd9;
+}
+
+.heading{
+    height: 100px;
+}
+
+h1 {
+    color: #f2f4f8;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#inputText {
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+#generateBtn {
+    padding: 10px 20px;
+    background-color: #24a148;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#generateBtn:hover {
+    background-color: #24a14791;
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+#output{
+    position: relative;
+    margin-left: 150px;
+    margin-top: 30px;
+    height: 500px;
+    visibility: hidden;
+}
+
+#result {
+    height: 450px;
+    width: 650px;
+    border: 8px solid black;
+    
+}
+
+#imageResult {
+    width: 100%;
+    height: 100%;
+}
+.Download{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Downloadbtn{
+    cursor: pointer;
+    background-color: #8d8d8d;
+    height: 20px;
+    width: 150px;
+    border-radius: 10px;
+}
+.Downloadbtn:hover{
+    background-color: #393939;
+    color: white;
+}
+
+#error {
+    color: #e90f1a;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
