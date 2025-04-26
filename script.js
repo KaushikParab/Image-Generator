@@ -1,8 +1,3 @@
-//Wbsite for temp no
-//https://temp-number.com/temporary-numbers/United-States/12085686654/1
-
-// ac21622d4ee1a1f83601a68499059ef2bf3609020080845b38cf0b0fcce16dbc8e27610915573b486f3dbf84058c5ebc
-
 document.getElementById('generateBtn').addEventListener('click', async function () {
     const inputText = document.getElementById('inputText').value;
 
@@ -18,7 +13,7 @@ document.getElementById('generateBtn').addEventListener('click', async function 
         const response = await fetch('https://clipdrop-api.co/text-to-image/v1', {
             method: 'POST',
             headers: {
-                'x-api-key': 'ac21622d4ee1a1f83601a68499059ef2bf3609020080845b38cf0b0fcce16dbc8e27610915573b486f3dbf84058c5ebc',
+                'x-api-key': 'Your API Key',
             },
             body: form,
         });
@@ -53,13 +48,3 @@ document.getElementById('generateBtn').addEventListener('click', async function 
         document.getElementById('result').style.display = 'none';
     }
 });
-
-
-
-// P7LNNLRH6JR5HSQFV3BPAMDQ
-
-
-
-
-// infinityfree domain pass
-// naxemox193@jomspar.com
