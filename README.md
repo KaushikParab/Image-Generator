@@ -6,7 +6,7 @@ This project is a simple and interactive web application that allows users to ge
 
 ## 📸 Live Screenshot
 
-<img src="Screenshot 2025-05-18 145121.png" alt="Website Screenshot" width="800">
+![image alt]()
 
 ---
 
