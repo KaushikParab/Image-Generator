@@ -6,7 +6,7 @@ This project is a simple and interactive web application that allows users to ge
 
 ## 📸 Live Screenshot
 
-![image alt]()
+![image alt](https://github.com/KaushikParab/Image-Generator/blob/main/Output/Screenshot%202025-05-18%20151303.png?raw=true)
 
 ---
 
